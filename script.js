@@ -55,11 +55,13 @@ END FUNCTION
 
 FUNCTION isWordInDictionary(word, dictionary)
     SET found till falskt
+    
     FOR varje element i dictionary, index räknas med 'i'
         IF plats 'i' i dictionary är lika med word
             SET found till sant
         END IF
     END FOR
+    
     RETURN found
 END FUNCTION
 */
