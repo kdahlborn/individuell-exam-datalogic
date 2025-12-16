@@ -5,10 +5,10 @@ SET sum tilldelas INPUT från användare
 SET friends tilldelas INPUT från användare
 SET tipPercent tilldelas INPUT från användare
 
-SET variabel tip till tipPercent * 0.01
+SET tip till tipPercent * 0.01
 SET tip till tip * sum
-SET variabel totalSum till tip + sum
-SET variabel splitPrice till totalSum / friends
+SET totalSum till tip + sum
+SET splitPrice till totalSum / friends
 
 Skriv ut "Varje person ska betala X kr"
 */
@@ -17,10 +17,10 @@ Skriv ut "Varje person ska betala X kr"
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 // Startkoden är 100% frivillig och kan tas bort eller skrivas om
 /*
-SET variabel dictionary = [FOUR, FOUL, FOOL, FOOT, FORT, FORE, FIRE, FIVE]; // Innehåller ALLA ord i det engelska språket
-SET variabel startWord till "FOUR"
-SET variabel endWord till "FIVE"
-SET variabel attempts till 0
+SET dictionary = [FOUR, FOUL, FOOL, FOOT, FORT, FORE, FIRE, FIVE]; // Innehåller ALLA ord i det engelska språket
+SET startWord till "FOUR"
+SET endWord till "FIVE"
+SET attempts till 0
 
 WHILE startWord INTE är lika med endWord
     SET newWord tilldelas INPUT från användare
@@ -42,7 +42,7 @@ Skriv ut "Grattis! Du klarade pusslet på X antal försök"
 
 
 FUNCTION isOneLetterApart(wordOne, wordTwo)
-    SET variabel diffCount till 0
+    SET diffCount till 0
 
     FOR varje tecken i wordOne, index räknas med 'i'
         IF plats 'i' i wordOne INTE är lika med 'i' i wordTwo
@@ -54,7 +54,7 @@ FUNCTION isOneLetterApart(wordOne, wordTwo)
 END FUNCTION
 
 FUNCTION isWordInDictionary(word, dictionary)
-    SET variabel found till falskt
+    SET found till falskt
     FOR varje element i dictionary, index räknas med 'i'
         IF plats 'i' i dictionary är lika med word
             SET found till sant
