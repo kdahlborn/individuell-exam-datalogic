@@ -2,6 +2,8 @@
 
 ## Split the nota
 
+![Split the nota](./images/split-the-nota.jpg)
+
 ---
 
 ## Doublets
