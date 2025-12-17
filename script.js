@@ -3,10 +3,9 @@
 /*
 SET sum tilldelas INPUT från användare
 SET friends tilldelas INPUT från användare
-SET tipPercent tilldelas INPUT från användare
+SET tipDecimal tilldelas INPUT från användare
 
-SET tip till tipPercent * 0.01
-SET tip till tip * sum
+SET tip till tipDecimal * sum
 SET totalSum till tip + sum
 SET splitPrice till totalSum / friends
 
